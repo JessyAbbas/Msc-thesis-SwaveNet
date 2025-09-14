@@ -1,2 +1,6 @@
-exp/
+datasets/
 Output/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

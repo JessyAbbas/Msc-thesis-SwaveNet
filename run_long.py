@@ -43,6 +43,8 @@ parser.add_argument('--loss', type=str, default='mae', help='loss function')
 parser.add_argument('--model_name', type=str, default='SpikF')
 parser.add_argument('--evaluate', type=int, default=0)
 parser.add_argument('--rank', type=int, default=0)
+parser.add_argument('--tau', type=float, default=2.0)
+parser.add_argument('--label_len', type=int, default=48)
 
 args = parser.parse_args()
 
@@ -57,9 +59,9 @@ def main(rank):
     # Initialize experiment
     Exp = Exp_ETT
 
-    setting = '{}_{}_ft{}_sl{}_pl{}_imp{}_lr{}_bs{}_eh{}_dh{}_l{}_itr0_K{}'.format(
-        args.model, args.data, args.features, args.seq_len, args.pred_len, args.K_IMP, 
-        args.lr, args.batch_size, args.enc_hidden, args.dec_hidden, args.levels, args.K_IMP)
+    setting = '{}_{}_ft{}_sl{}_pl{}_lr{}_bs{}'.format(
+        args.model, args.data, args.features, args.seq_len, args.pred_len, 
+        args.lr, args.batch_size)
     
     args.rank = rank
     exp = Exp(args)

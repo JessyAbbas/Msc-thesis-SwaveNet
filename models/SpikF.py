@@ -97,7 +97,7 @@ class SFS(nn.Module):
         return x
 
 class SpikF(nn.Module):
-    def __init__(self, input_len, patch_num, patch_dim, T, blocks, D, pred_len, tau, alpha, hidden_dim, mean, last, std):
+    def __init__(self, input_len, patch_num, patch_dim, T, blocks, D, pred_len, tau, alpha, hidden_dim):
         super().__init__()
         self.SPE = SPE(input_len, patch_num, patch_dim, T, tau, D)
 
