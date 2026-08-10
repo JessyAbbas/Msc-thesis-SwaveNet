@@ -379,8 +379,16 @@ class Exp_ETT(Exp_Basic):
 
             mae, mse, RSE, R2 = metric_(preds, trues)
             print('|  Normed  | mse:{:5.7f} | mae:{:5.7f} | RSE:{:5.7f} | R^2:{:5.7f} |'.format(mse, mae, RSE, R2))
-      
 
+        #result save (safe if save not provided)--Added here
+        if getattr(self.args, 'save', False):
+            folder_path = os.path.join('test_results', setting)
+            os.makedirs(folder_path, exist_ok=True)
+            np.save(os.path.join(folder_path, 'preds.npy'), preds)
+            np.save(os.path.join(folder_path, 'trues.npy'), trues)
+            with open(os.path.join(folder_path, 'metrics.txt'), 'w') as f:
+                f.write(f"mse:{mse:.6f}\nmae:{mae:.6f}\nRSE:{RSE:.6f}\nR2:{R2:.6f}\n")
+            print(f"Saved test results to {folder_path}")
         return mse, mae 
 
 

@@ -1,0 +1,69 @@
+{
+  "SwaveNet": {
+    "firing_rate": 0.1355102424065117,
+    "firing_rates_per_layer": {
+      "SPE.encoder_lif": 0.17446028292179108,
+      "SWSs.0.haar_fwd.neuron(ternary)": 0.09691642038524151,
+      "SWSs.0.generator_lif": 0.47372002750635145,
+      "SWSs.0.mp_lif": 0.6170480161905288,
+      "SWSs.0.haar_inv.neuron(ternary)": 0.016912842495366932,
+      "SWSs.0.sws_lif": 0.015890939580276608,
+      "SWSs.0.wav_proj_lif": 0.06767578404396772,
+      "SWSs.0.enrich_lif": 0.029415458999574186,
+      "SWSs.0.light_spikformer.attn.q_lif": 0.05063389576971531,
+      "SWSs.0.light_spikformer.attn.k_lif": 0.04321812447160482,
+      "SWSs.0.light_spikformer.attn.v_lif": 0.04056658232584596,
+      "SWSs.0.light_spikformer.attn.attn_lif": 0.034002687130123374,
+      "SWSs.0.light_spikformer.attn.last_lif": 0.0046744212682824585,
+      "SWSs.1.haar_fwd.neuron(ternary)": 0.10943778380751609,
+      "SWSs.1.generator_lif": 0.551390752196312,
+      "SWSs.1.mp_lif": 0.6923270404338837,
+      "SWSs.1.haar_inv.neuron(ternary)": 0.02218540832400322,
+      "SWSs.1.sws_lif": 0.021439907606691122,
+      "SWSs.1.wav_proj_lif": 0.06690848506987095,
+      "SWSs.1.enrich_lif": 0.05263933688402176,
+      "SWSs.1.light_spikformer.attn.q_lif": 0.06496495138853789,
+      "SWSs.1.light_spikformer.attn.k_lif": 0.0580793134868145,
+      "SWSs.1.light_spikformer.attn.v_lif": 0.04417201653122902,
+      "SWSs.1.light_spikformer.attn.attn_lif": 0.03470459198579192,
+      "SWSs.1.light_spikformer.attn.last_lif": 0.0043709893594495956
+    },
+    "simple": {
+      "total_flops": 447824,
+      "total_sops": 970955.820727259,
+      "firing_rate": 0.1355102424065117,
+      "T": 16,
+      "E_ann_uj": 2.0599903999999998,
+      "E_snn_uj": 0.8738602386545331,
+      "ratio_ann_over_snn": 2.357345384167759
+    },
+    "detailed": {
+      "E_Opts_uj": 3.8787613,
+      "E_Addr_uj": 0.27534919999999996,
+      "E_Mem_uj": 120.86178000000001,
+      "E_Total_uj": 125.01589050000001
+    }
+  },
+  "SpikF": {
+    "firing_rate": 0.21953656931097307,
+    "simple": {
+      "total_flops": 807905,
+      "total_sops": 2837835.072466907,
+      "firing_rate": 0.21953656931097307,
+      "T": 16,
+      "E_ann_uj": 3.7163629999999994,
+      "E_snn_uj": 2.5540515652202163,
+      "ratio_ann_over_snn": 1.4550853438542717
+    },
+    "spikf_detailed": {
+      "E_SFFT_uj": 0.2649513818003395,
+      "E_SiFFT_uj": 0.28005830783702157,
+      "E_Selector_uj": 0.4615578,
+      "E_IntraConv_uj": 0.4615578,
+      "E_InterConv_uj": 0.4615578,
+      "E_SPE_uj": 0.38122180000000006,
+      "E_Decoder_uj": 2.5804799999999997,
+      "E_Total_uj": 4.891384889637361
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "SwaveNet": {
+    "firing_rate": 0.13114834565382738,
+    "firing_rates_per_layer": {
+      "SPE.encoder_lif": 0.15989208221435547,
+      "SWSs.0.haar_fwd.neuron(ternary)": 0.06608552932739258,
+      "SWSs.0.generator_lif": 0.38977813720703125,
+      "SWSs.0.mp_lif": 0.5737060546875,
+      "SWSs.0.haar_inv.neuron(ternary)": 0.01051788330078125,
+      "SWSs.0.sws_lif": 0.010320281982421875,
+      "SWSs.0.wav_proj_lif": 0.07918701171875,
+      "SWSs.0.enrich_lif": 0.02431488037109375,
+      "SWSs.0.light_spikformer.attn.q_lif": 0.061692428588867185,
+      "SWSs.0.light_spikformer.attn.k_lif": 0.012339210510253907,
+      "SWSs.0.light_spikformer.attn.v_lif": 0.056474494934082034,
+      "SWSs.0.light_spikformer.attn.attn_lif": 0.23469276428222657,
+      "SWSs.0.light_spikformer.attn.last_lif": 0.025927734375
+    },
+    "simple": {
+      "total_flops": 404180,
+      "total_sops": 848120.6135418232,
+      "firing_rate": 0.13114834565382738,
+      "T": 16,
+      "E_ann_uj": 1.8592279999999997,
+      "E_snn_uj": 0.7633085521876409,
+      "ratio_ann_over_snn": 2.435748944082253
+    },
+    "detailed": {
+      "E_Opts_uj": 7.9373226,
+      "E_Addr_uj": 1.2138987,
+      "E_Mem_uj": 790.1777905376345,
+      "E_Total_uj": 799.3290118376344
+    }
+  },
+  "SpikF": {
+    "firing_rate": 0.22263538613915443,
+    "simple": {
+      "total_flops": 807905,
+      "total_sops": 2877891.866220057,
+      "firing_rate": 0.22263538613915443,
+      "T": 16,
+      "E_ann_uj": 3.7163629999999994,
+      "E_snn_uj": 2.5901026795980515,
+      "ratio_ann_over_snn": 1.4348323057897951
+    },
+    "spikf_detailed": {
+      "E_SFFT_uj": 0.3049017821896933,
+      "E_SiFFT_uj": 0.3224105413889121,
+      "E_Selector_uj": 0.5288349,
+      "E_IntraConv_uj": 0.5288349,
+      "E_InterConv_uj": 0.5288349,
+      "E_SPE_uj": 0.4357277,
+      "E_Decoder_uj": 2.5804799999999997,
+      "E_Total_uj": 5.230024723578605
+    }
+  }
+}

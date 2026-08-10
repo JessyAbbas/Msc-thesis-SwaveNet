@@ -1,0 +1,16 @@
+{
+  "data": "exchange",
+  "data_path": "exchange_rate.csv",
+  "pred_len": 336,
+  "best_trial": 20,
+  "best_mse": 0.34876206517219543,
+  "best_mae": 0.4276251494884491,
+  "params": {
+    "hidden_dim": 180,
+    "patch_dim": 64,
+    "levels": 1,
+    "patch_num": 32
+  },
+  "total_trials": 72,
+  "elapsed_hours": 39.47517377773921
+}

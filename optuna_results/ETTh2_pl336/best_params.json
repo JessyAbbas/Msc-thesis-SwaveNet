@@ -1,0 +1,15 @@
+{
+  "data": "ETTh2",
+  "pred_len": 336,
+  "best_trial": 7,
+  "best_mse": 0.40354105830192566,
+  "best_mae": 0.4172895550727844,
+  "params": {
+    "hidden_dim": 720,
+    "patch_dim": 32,
+    "levels": 2,
+    "patch_num": 16
+  },
+  "total_trials": 72,
+  "elapsed_hours": 163.29601215627457
+}

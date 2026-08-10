@@ -29,6 +29,7 @@ class SPE(nn.Module):
 
         return x
 
+
 class SFS(nn.Module):
     def __init__(self, patch_num, D, patch_dim, tau, alpha):
         super().__init__()

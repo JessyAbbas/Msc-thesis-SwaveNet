@@ -1,0 +1,60 @@
+{
+  "model": "abl_noDWC",
+  "data": "exchange",
+  "pred_len": 96,
+  "overall_avg_firing_rate": 0.017278172419621395,
+  "layers": {
+    "SPE.encoder_lif": {
+      "mean": 0.023301315307617188,
+      "std": 0.00026909194654523895
+    },
+    "SWSs.0.haar_fwd.neuron(ternary)": {
+      "mean": 0.010504150390625,
+      "std": 0.0015328426719448628
+    },
+    "SWSs.0.generator_lif": {
+      "mean": 0.05668373107910156,
+      "std": 0.0012972731016048997
+    },
+    "SWSs.0.mp_lif": {
+      "mean": 0.133782958984375,
+      "std": 0.002334457094212046
+    },
+    "SWSs.0.haar_inv.neuron(ternary)": {
+      "mean": 0.000344085693359375,
+      "std": 5.4532828608729346e-05
+    },
+    "SWSs.0.sws_lif": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "SWSs.0.wav_proj_lif": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "SWSs.0.enrich_lif": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "SWSs.0.light_spikformer.attn.q_lif": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "SWSs.0.light_spikformer.attn.k_lif": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "SWSs.0.light_spikformer.attn.v_lif": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "SWSs.0.light_spikformer.attn.attn_lif": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "SWSs.0.light_spikformer.attn.last_lif": {
+      "mean": 0.0,
+      "std": 0.0
+    }
+  }
+}

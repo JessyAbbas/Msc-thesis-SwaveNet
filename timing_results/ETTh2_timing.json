@@ -1,0 +1,54 @@
+[
+  {
+    "model": "abl_noDWC",
+    "data": "ETTh2",
+    "pred_len": 96,
+    "total_params": 448800,
+    "trainable_params": 448800,
+    "batch_size": 32,
+    "batch_time_mean_ms": 125.86797680705786,
+    "batch_time_std_ms": 45.35778230273731,
+    "full_test_time_s": 505.4864245019853,
+    "num_test_samples": 2785,
+    "throughput_samples_per_sec": 5.5095445990341565
+  },
+  {
+    "model": "abl_noDWC",
+    "data": "ETTh2",
+    "pred_len": 336,
+    "total_params": 621840,
+    "trainable_params": 621840,
+    "batch_size": 32,
+    "batch_time_mean_ms": 154.44852523505688,
+    "batch_time_std_ms": 52.63426068479715,
+    "full_test_time_s": 473.32690464193,
+    "num_test_samples": 2545,
+    "throughput_samples_per_sec": 5.3768335901490385
+  },
+  {
+    "model": "SpikF",
+    "data": "ETTh2",
+    "pred_len": 96,
+    "total_params": 816495,
+    "trainable_params": 816495,
+    "batch_size": 32,
+    "batch_time_mean_ms": 77.49653828795999,
+    "batch_time_std_ms": 22.912884303093417,
+    "full_test_time_s": 201.67454208107665,
+    "num_test_samples": 2785,
+    "throughput_samples_per_sec": 13.809378076487125
+  },
+  {
+    "model": "SpikF",
+    "data": "ETTh2",
+    "pred_len": 336,
+    "total_params": 989535,
+    "trainable_params": 989535,
+    "batch_size": 32,
+    "batch_time_mean_ms": 62.670274754054844,
+    "batch_time_std_ms": 16.445220479095806,
+    "full_test_time_s": 185.18575381906703,
+    "num_test_samples": 2545,
+    "throughput_samples_per_sec": 13.742957800558212
+  }
+]

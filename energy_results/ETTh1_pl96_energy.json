@@ -1,0 +1,81 @@
+{
+  "SwaveNet": {
+    "firing_rate": 0.16414757326396331,
+    "firing_rates_per_layer": {
+      "SPE.encoder_lif": 0.20611311495304108,
+      "SWSs.0.haar_fwd.neuron(ternary)": 0.10311432369053364,
+      "SWSs.0.generator_lif": 0.4831089794635773,
+      "SWSs.0.mp_lif": 0.6404855102300644,
+      "SWSs.0.haar_inv.neuron(ternary)": 0.019250052981078625,
+      "SWSs.0.sws_lif": 0.017764718923717737,
+      "SWSs.0.wav_proj_lif": 0.09461495876312256,
+      "SWSs.0.enrich_lif": 0.0397059865295887,
+      "SWSs.0.light_spikformer.attn.q_lif": 0.08819929212331772,
+      "SWSs.0.light_spikformer.attn.k_lif": 0.030855888780206443,
+      "SWSs.0.light_spikformer.attn.v_lif": 0.04692775420844555,
+      "SWSs.0.light_spikformer.attn.attn_lif": 0.15464696064591407,
+      "SWSs.0.light_spikformer.attn.last_lif": 0.060689438879489896,
+      "SWSs.1.haar_fwd.neuron(ternary)": 0.1194067882373929,
+      "SWSs.1.generator_lif": 0.4948878899216652,
+      "SWSs.1.mp_lif": 0.6876116394996643,
+      "SWSs.1.haar_inv.neuron(ternary)": 0.02473013857379556,
+      "SWSs.1.sws_lif": 0.020902362186461687,
+      "SWSs.1.wav_proj_lif": 0.10927734933793545,
+      "SWSs.1.enrich_lif": 0.0864650223404169,
+      "SWSs.1.light_spikformer.attn.q_lif": 0.19652754291892052,
+      "SWSs.1.light_spikformer.attn.k_lif": 0.036771502997726205,
+      "SWSs.1.light_spikformer.attn.v_lif": 0.035396468825638294,
+      "SWSs.1.light_spikformer.attn.attn_lif": 0.09212864898145198,
+      "SWSs.1.light_spikformer.attn.last_lif": 0.05417567901313305,
+      "SWSs.2.haar_fwd.neuron(ternary)": 0.14734606705605985,
+      "SWSs.2.generator_lif": 0.4707859754562378,
+      "SWSs.2.mp_lif": 0.7282715141773224,
+      "SWSs.2.haar_inv.neuron(ternary)": 0.03719351775944233,
+      "SWSs.2.sws_lif": 0.027198138739913703,
+      "SWSs.2.wav_proj_lif": 0.11060268320143223,
+      "SWSs.2.enrich_lif": 0.1282178670167923,
+      "SWSs.2.light_spikformer.attn.q_lif": 0.268995900452137,
+      "SWSs.2.light_spikformer.attn.k_lif": 0.0606253519654274,
+      "SWSs.2.light_spikformer.attn.v_lif": 0.03327113715931773,
+      "SWSs.2.light_spikformer.attn.attn_lif": 0.0766601599752903,
+      "SWSs.2.light_spikformer.attn.last_lif": 0.04053388480097055
+    },
+    "simple": {
+      "total_flops": 621500,
+      "total_sops": 1632283.4685368512,
+      "firing_rate": 0.16414757326396331,
+      "T": 16,
+      "E_ann_uj": 2.8588999999999998,
+      "E_snn_uj": 1.469055121683166,
+      "ratio_ann_over_snn": 1.9460808228383035
+    },
+    "detailed": {
+      "E_Opts_uj": 9.968469200000003,
+      "E_Addr_uj": 1.2708635000000001,
+      "E_Mem_uj": 686.4724499999999,
+      "E_Total_uj": 697.7117826999998
+    }
+  },
+  "SpikF": {
+    "firing_rate": 0.2511905093366901,
+    "simple": {
+      "total_flops": 807905,
+      "total_sops": 3247009.095130538,
+      "firing_rate": 0.2511905093366901,
+      "T": 16,
+      "E_ann_uj": 3.7163629999999994,
+      "E_snn_uj": 2.922308185617484,
+      "ratio_ann_over_snn": 1.2717217911138046
+    },
+    "spikf_detailed": {
+      "E_SFFT_uj": 0.2826164273971235,
+      "E_SiFFT_uj": 0.2999015496780073,
+      "E_Selector_uj": 0.47353680000000004,
+      "E_IntraConv_uj": 0.47353680000000004,
+      "E_InterConv_uj": 0.47353680000000004,
+      "E_SPE_uj": 0.38162,
+      "E_Decoder_uj": 2.5804799999999997,
+      "E_Total_uj": 4.96522837707513
+    }
+  }
+}
