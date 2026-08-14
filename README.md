@@ -5,7 +5,7 @@ SwaveNet replaces FFT-based frequency selection in spiking neural networks with 
 ## Architecture
 
 <p align="center">
-  <img src="figures/architecture.png" width="800"/>
+  <img src="pic/architecture.png" width="800"/>
 </p>
 
 ```
