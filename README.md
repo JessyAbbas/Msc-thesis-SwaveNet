@@ -1,4 +1,4 @@
-# SwaveNet: Spiking Wavelet Network for Energy-Efficient Time-Series Forecasting
+# SwaveNet: Spiking Wavelet Network for Long Term Time-Series Forecasting
 
 SwaveNet replaces FFT-based frequency selection in spiking neural networks with Haar Discrete Wavelet Transform using ternary spiking neurons {−1, 0, +1}, combined with XNOR-based spike-driven self-attention and a novel combination of Gray Code and Logarithmic positional encoding.
 
@@ -26,7 +26,7 @@ Input → SPE → [DB-SWB → LSB] × ℓ → MLP Decoder → Output
 ## Installation
 
 ```bash
-git clone https://github.com/[username]/SwaveNet.git
+git clone https://github.com/JessyAbbas/Msc-thesis-SwaveNet
 cd SwaveNet
 pip install torch spikingjelly==0.0.0.0.14 optuna numpy pandas matplotlib
 ```
@@ -94,9 +94,9 @@ Built upon [SpikF](https://github.com/[spikf-repo]) [Wu et al., 2025], [SWformer
 
 ```bibtex
 @mastersthesis{abbas2026swavenet,
-    title={SwaveNet: Spiking Wavelet Network for Energy-Efficient Time-Series Forecasting},
+    title={SwaveNet: Spiking Wavelet Network for Long Term Time-Series Forecasting},
     author={Abbas, J.},
     year={2026},
-    school={[University Name]}
+    school={Universität Hildesheim}
 }
 ```
